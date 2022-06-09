@@ -126,7 +126,10 @@ select{
     margin-top: 20px;
     cursor: pointer;
 }
-
+#submit:hover{
+    border: 1px solid rgb(147, 26, 26);
+    transition: 0.4s;
+}
 input:hover{
     border: 1px solid rgb(147, 26, 26);
     transition: 0.4s;
