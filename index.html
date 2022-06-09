@@ -17,7 +17,43 @@
     <section class="section-form">
         <h1>Brave souls of Roman Empire, we need you in the legions to bulster our numbers against the Germans. Join trough this simple sing up form and after 25 years of service you will be rewarded.</h1>
         <p>You know what must be done</p>
-        <form action="index.html" method="post"></form>
+        <form action="/" method="post">
+                <div>
+                    <label for="fname">First name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Julius">
+                </div>
+           
+                <div>
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Caesar">
+                </div>
+        
+                <div>
+                    <label for="phone">Phone number</label>
+                    <input type="number" minlength="9" maxlength="9" id="phone" name="phone" placeholder="774555666">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="phillipeAUGUSTUS@email.com">
+                </div>
+        
+        
+            
+                <div>
+                    <label for="legion">Choose a legion:</label>
+                    <select id="legion" name="legion">
+                    <option value="Legion I">Legion I</option>
+                    <option value="Legion II">Legion II</option>
+                    <option value="Legion V">Legion V</option>
+                    <option value="Legion X">Legion X </option>
+                    </select>
+                </div>
+        
+                <div> <input type="submit" id="submit" value="Submit"></div>
+           
+
+        </form>
     </section>
 </div>
    
